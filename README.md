@@ -34,7 +34,7 @@
 **US10** - En tant que Administrateur de projet/Collaborateur je veux pouvoir supprimer des tâches
 </br></br>
 
-### **Gestion des releases** – Priorité 1
+### **Gestion des releases** – Priorité 2
 
 **US11** - En tant que Administrateur de projet/Collaborateur je veux pouvoir créer des releases
 
@@ -43,7 +43,7 @@
 **US13** - En tant que Administrateur de projet/Collaborateur je veux pouvoir supprimer des releases
 </br></br>
 
-### **Gestion des tests** – Priorité 1
+### **Gestion des tests** – Priorité 2
 
 **US14** - En tant que Administrateur de projet/Collaborateur je veux pouvoir créer des tests
 
@@ -52,7 +52,7 @@
 **US16** - En tant que Administrateur de projet/Collaborateur je veux pouvoir supprimer des tests
 </br></br>
 
-### **Gestion de la documentation** – Priorité 1
+### **Gestion de la documentation** – Priorité 2
 
 **US17** - En tant que Administrateur de projet/Collaborateur je veux pouvoir créer des documentation
 
@@ -61,7 +61,7 @@
 **US19** - En tant que Administrateur de projet/Collaborateur je veux pouvoir supprimer des documentation
 </br></br>
 
-### **Gestion de l’identification** – Priorité 2
+### **Gestion de l’identification** – Priorité 3
 
 **US20** - En tant que Visiteur je veux pouvoir m’identifier afin de pouvoir gérer mon espace
 
@@ -70,7 +70,7 @@
 **US22**- En tant que Utilisateur je veux pouvoir me déconnecter
 </br></br>
 
-### **Gestion des membres** – Priorité 3
+### **Gestion des membres** – Priorité 4
 
 **US23** - En tant que Administrateur de projet je veux pouvoir ajouter des membres supplémentaires au projet afin qu’ils puissent participer au projet
 
@@ -79,7 +79,7 @@
 **US25** – En tant que Administrateur de projet je veux pouvoir supprimer un membre du groupe
 </br></br>
 
-### **Gestion des notifications** – Priorité 4
+### **Gestion des notifications** – Priorité 5
 
 **US26** - En tant que Administrateur de projet/Collaborateur/Observateur je veux être notifié lorsque le projet a été édité afin d'être informé de la modification
 
