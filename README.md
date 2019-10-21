@@ -138,47 +138,81 @@
 
 -----------------
 
+## Tasks
+
 **T1** DBconnect.php : Gérer les connexions à la base de donnée.
+</br></br>
 
 **T2** index.php : Créer la page d'accueil.
+
 **T3** editProject.php : Gérer l'ajout/la suppression d'un projet.
+
 **T4** issuesPage.php : Créer la page des issues.
+
 **T5** taskPage.php : Créer la page des tasks.
+
 **T6** testPage.php : Créer la page des tests.
+
 **T7** documentationPage.php : Créer la page des documents.
+
 **T8** releasePage.php : Créer la page des releases.
+</br></br>
 
 **T9** issue.php : Classe issue. (Les champs des classes sont décrits en annexe de la partie issues)
+
 **T10** task.php : Classe task.
+
 **T11** test.php : Classe test.
+
 **T12** documentation.php : Classe documentation. 
+
 **T13** release.php : Classe release. 
+</br></br>
 
 **T14** editIssue.php : Gérer l'ajout/la modification et la suppression d'issue.
+
 **T15** editTask.php : Gérer l'ajout/la modification et la suppression de tasks.
+
 **T16** editTest.php : Gérer l'ajout/la modification et la suppression de tests.
+
 **T17** editDocumentation.php : Gérer l'ajout/la modification et la suppression de documents.
+
 **T18** editRelease.php : Gérer l'ajout/la modification et la suppression de releases.
+</br></br>
 
 **T19** listProjet.php : Permettre de lister les projets d'un utilisateur.
+</br></br>
 
 **T20** style.css : Faire la feuille de style du site.
+</br></br>
 
 **T21** db.sql : Mettre en place la base de données
+</br></br>
 
 **T22** testIssues.php : Tester la classe Issues.
+
 **T23** testTask.php : Tester la classe Task.
+
 **T24** testTest.php : Tester la classe Test.
+
 **T25** testDocumentation.php : Tester la classe Documentation.
+
 **T26** testRelease.php : Tester la classe Release.
+</br></br>
 
 **T27** testEditIssues.php : Tester l'ajout/la modification et la suppression d'issue.
+
 **T28** testEditTask.php : Tester l'ajout/la modification et la suppression de task.
+
 **T29** testEditTest.php : Tester l'ajout/la modification et la suppression de test.
+
 **T30** testEditDocumentation.php : Tester l'ajout/la modification et la suppression de documentation.
+
 **T31** testEditRelease.php : Tester l'ajout/la modification et la suppression de release.
+</br></br>
 
 **T32** testedutProject.php : Tester l'ajout et la suppression de projet.
+</br></br>
 
 **T33** doc.md : Ecrire la documentation du site.
 
