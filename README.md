@@ -42,7 +42,7 @@
 ​
 ## Annexes
  
-###PROJET:
+### PROJET:
 - Nom du projet
 - Description
 - Liste de membres
@@ -52,6 +52,11 @@
 - Description
 - Priorité
 - Difficulté
+
+### SPRINT :
+- Identifiant (Généré automatiquement)
+- Date de début
+- Date de fin
 ​
 ### TACHES :
 - Identifiant (Généré automatiquement)

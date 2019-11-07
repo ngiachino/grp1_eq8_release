@@ -2,7 +2,7 @@
 
 |  ID  |  Description |   US correspondante   |   Durée (jours/homme)    | Développeurs | Avancement |
 |:----:|:-------------|:---------------------:|:------------------------:|:------------:|:----------:|
-|  T1  |  Mise en place du modèle et création de la base de données | X | 1 | Amel | UNDONE |
+|  T1  |  Mise en place du modèle et création de la base de données | X | 1 | Amel | DONE |
 |  T2  |  Page d'accueil pour un visiteur non connecté. Avec le choix entre Connexion et inscription. Avec des champs "Email", "Pseudo", "Mot de passe" et "Confirmation du mot de passe" ainsi qu'un bouton "S'inscrire' pour confirmer l'inscription. Et les champs "Email ou Pseudo" et "Mot de passe" ainsi qu'un bouton "Se connecter" pour confirmer la connexion.| US22 & US23 | 1 | Nicolas | UNDONE |
 |  T3  |  Gestion des intéractions avec la base de données pour l'inscription. Vérification que le pseudo et le mot de passe n'ont pas déjà été utilisés. Et que tous les champs sont remplis. Si ce n'est pas le cas, retourner une erreur. Sinon stocker les informations dans la BDD en hashant le mot de passe. | US23 | 1 | Amel | UNDONE |
 |  T4  |  Gestion des intéractions avec la base de données pour la connexion. Vérification que tous les champs sont remplis, que le premier champ correspond à un email ou pseudo existant et que le mot de passe est correcte. Si ce n'est pas le cas, retourner une erreur. Sinon, connecter l'utilisateur | US22 | 0.5 | Amel | UNDONE |
