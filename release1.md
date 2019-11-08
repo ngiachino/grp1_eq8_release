@@ -8,4 +8,4 @@
 |US22|En tant que Visiteur je veux pouvoir m’identifier en cliquant sur le bouton 'Se Connecter' puis en renseignant mon identifiant et mon mot de passe puis en cliquant sur le bouton ‘Se connecter’ afin de pouvoir accéder à mon espace.|MEDIUM|3|1|
 |US23|En tant que Visiteur je veux pouvoir m’inscrire en cliquant sur le bouton 'S'inscrire' puis en renseignant les différents champs "Email","Identifiant" "Mot de passe" et "Confirmer mot de passe". Puis en cliquant sur le bouton ‘ S’inscrire’ pour confirmer.|MEDIUM|3|1|
 
-​
+Lien de la release GitHub : https://github.com/ngiachino/grp1_eq8_dev/releases/tag/0.1.0
