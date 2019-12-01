@@ -41,6 +41,8 @@
 |US33|En tant qu'Administrateur de projet/Collaborateur, sur la page d'accueil d'un projet, je veux pouvoir modifier le nom et/ou la description du projet en cliquant sur le bouton modifier.|MEDIUM|2|3|
 |US34|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir visualiser la progression d'un sprint en fonction de la date de début et de la date de fin.|LOW|2|3|
 |US35|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir naviguer sur la liste de tous les sprints du projets en cliquant sur le bouton Suivant/Précedent.|LOW|2|3|
+|US36|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir lier une tâche à des issues de mon projet en renseignant son numéro et en cliquant sur le bouton Ajouter .|MEDIUM|2|3|
+|US37|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir visualiser pour chaque tâche l'ensemble ses issues.|MEDIUM|2|3|
 
 
 ​
