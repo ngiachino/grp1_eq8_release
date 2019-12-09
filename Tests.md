@@ -1,11 +1,34 @@
-# Tests
-Nous n'avons pas encore fait de test unitaire, nous n'avons pas encore de fonction pour lesquels des tests unitaires seraient pertinants.
-Nous avons mis en place plusieurs tests End to End avec Selenium et automatisé avec Python.
-Les tests se trouvent dans le dossier tests, à la racine du projet.
+# Tests unitaires
 
-## Automatisation
-Nous avons utilisé Python pour automatiser les tests. Pour l'instant il y a des problèmes d'erreur de délais qui provoquent l'échec du script. (script qui essaye d'intéragir avant que certaines pages ne soient chargées).
+### Dépendances :
+Pour l'exécution des tests, vous devez avoir phpunit d'installé sur votre machine.
 
+### Exécution :
+Depuis la racine du projet, vous devez lancer la commande suivante :
+```
+phpunit tests/tests_unitaires/.
+```
+## Suivi des tests
+Le suivi des tests est effectué à l'aide de Travis. Vous pouvez suivre le résultat de ces tests à l'adresse suivant :
+https://travis-ci.com/ngiachino/grp1_eq8_dev 
+
+# Tests de validation
+
+### Dépendances :
+- Vous devez avoir Python 3.5+ d'installé sur votre machine.
+- Vous devez avoir pytest et Selenium d'installé. Vous pouvez lancer les scripts suivants pour les installer :
+```
+pip install pytest
+pip install selenium
+```
+ChromeDriver étant inclu dans le dossier tests_E2E, il n'est pas nécessaire de le télécharger. Le script ira directement chercher celui-ci.
+
+### Exécution :
+- Si le site n'est pas hébergé en local, vous pouvez modifier l'url de la page dnas le fichier **/tests/tests_E2E/url.txt**
+- Depuis le dossier **/tests/tests_E2E**, lancez la commande suivante :
+```
+python tests.py
+```
 ## Suivi des tests
 Le script Python créé un fichier "latest_log.txt" contenant les informations de la dernière exécution du script.
 Le résultat des tests E2E est répertorié dans le tableau ci-dessous.
@@ -15,16 +38,16 @@ Les tests ont été réalisés en local avec Selenium et avec le script Python p
 
 |Description du test|Date de la dernière exécution|Résultat|
 |:-----------------:|:---------------------------:|:------:|
-|Connexion|21/11/2019|Réussi|
-|Deconnexion|21/11/2019|Réussi|
-|Ajout d'issue|21/11/2019|Réussi|
-|Suppression d'issue|21/11/2019|Réussi|
-|Ajout de membre|21/11/2019|Réussi|
-|Suppression de membre|21/11/2019|Réussi|
-|Ajout de release|21/11/2019|Réussi|
-|Modification de release|21/11/2019|Réussi|
-|Suppression de release|21/11/2019|Réussi|
-|Redirection vers la release en cas de clique sur le lien|21/11/2019|Réussi|
-|Ajout de sprint|21/11/2019|Réussi|
-|Modification de sprint|21/11/2019|Réussi|
-|Suppression de sprint|21/11/2019|Réussi|
+|Connexion|09/12/2019|Réussi|
+|Deconnexion|09/12/2019|Réussi|
+|Ajout d'issue|09/12/2019|Réussi|
+|Suppression d'issue|09/12/2019|Réussi|
+|Ajout de membre|09/12/2019|Réussi|
+|Suppression de membre|09/12/2019|Réussi|
+|Ajout de release|09/12/2019|Réussi|
+|Modification de release|09/12/2019|Réussi|
+|Suppression de release|09/12/2019|Réussi|
+|Redirection vers la release en cas de clique sur le lien|09/12/2019|Réussi|
+|Ajout de sprint|09/12/2019|Réussi|
+|Modification de sprint|09/12/2019|Réussi|
+|Suppression de sprint|09/12/2019|Réussi|
