@@ -1,3 +1,6 @@
+__Documentation de la release V0.3.0__
+
+__Dernière mise à jour le 10/12/2019__
 
 # Documentation Utilisateur
 
@@ -5,7 +8,7 @@ Cette documentation présente l'application et l'ensemble de ses fonctionnalité
 
 ## A propos de GoProject
 
-GoProject est une plateforme dédiée à la methodologie de gestion de projets agile SCRUM. Actuellement, elle peut être utilisée par une ou plusieurs équipes de développeurs afin de gérer le déroulementde leurs projets. Il leurs est possible de mettre en place le backlog d'un projet, ses différents sprints,ses tâches ainsi que les tests et la documentation du projet.
+GoProject est une plateforme dédiée à la methodologie de gestion de projets agile. Actuellement, elle peut être utilisée par une ou plusieurs équipes de développeurs afin de gérer le déroulement de leurs projets. Il est possible de mettre en place le backlog d'un projet, ses différents sprints,ses tâches ainsi que les tests et la documentation du projet.
  
 
 ## Type d'utilisateurs
@@ -17,7 +20,7 @@ Il existe 2 types d'utilisateurs :
 
 ## Interfaces
 
-L'application est divisée en 3 parties.
+L'application est divisée en 8 parties.
 
 - La page d'acceuil contenant un formulaire d'authentification / d'inscription.
 - La page profil de l'utilisateur contenant la liste de ses projets et de ses tâches.
@@ -29,40 +32,25 @@ L'application est divisée en 3 parties.
 - la page des releases qui contient les releases d'un projet et les différentes actions permettant de les gérer.
 
 ## Fonctionnalités
+### Fonctionnalités générales
 
-##### Créer un projet
-Afin de pouvoir créer un projet, vous devez d'abord vous connecter. Une fois connecté, vous serez redirigé vers la page d'acceuil de votre profil. Vous y trouverez une bouton "Créer un projet". Cliquez sur ce bouton, remplissez le formulaire de création puis validez. Celui-ci sera crée, et apparaitera sur la liste de vos projets, sur votre profil à gauche.
-##### Accéder au projet
-Afin de pouvoir accéder au projet, vous devez d'abord vous connecter. Une fois connecté, passez l'index de votre souris sur la liste de vos projet en indiquant le projet auquel vous souhaitez accéder et cliquez. Vous serez redirigez vers la page du projet et vous aurez un dashbord qui vous permettera d'effectuer les différentes actions que vous souhaitez.
+Un utilisateur connecté peut créer un projet, le modifier et le supprimer.
+Il est également possible d'ajouter un ou plusieurs utilisateurs au projet. Ces nouveaux membres pourront eux aussi éditer ce projet.
+Sur la page d'un projet, vous pourrez avoir accès aux pages suivantes : "Issues","Sprints", "Tests" et "Documentation". Depuis ces pages vous pourrez créer et parametrer chacun de ces aspects. Il sera également possible de les modifier ou encore de les supprimer.
 
-##### Ajouter un membre au projet
-Pour ajouter un développeur à un projet, vous devez d'abord être connecter. Une fois connecté, sur la page du projet, dans la partie membre du dashbord, renseignez le nom du membre que vous souhaitez ajouter sur le champs à droite puis cliquez sur "Inviter un membre" . il apparaitera sur la liste des membres du projet.
-##### supprimer un membre du projet
-Pour supprimer un développeur à un projet, vous devez d'abord être connecter. Une fois connecté, sur la page du projet, dans la partie membre du dashbord, cliquez sur la croix rouge à côté du membre que vous souhaitez supprimer . il sera supprimé de la liste des membres du projet.
-##### Créer un sprint
-Pour créer un sprint, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Sprint, puis sur la page sprints cliquez sur "Créer un sprint" et remplissez le formulaire puis validez. Un nouveau sprint sera créé.
-##### supprimer un sprint
-Pour supprimer un sprint, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Sprint, puis sur la page sprints cliquez sur "supprimer" puis validez. Le sprint sera supprimé de la liste.
-##### Créer une tâche
-Pour créer un tâche, vous devez d'abord être authentifié. Une fois authentifié, sur la page du sprint, Cliquez sur le sprint, puis cliquez sur le nom du sprint, puis sur la page des tâches cliquez sur "Ajouter une tâche" et remplissez le formulaire puis validez. Une nouvelle tâche sera créée.
-##### supprimer une tâche
-Pour supprimer une  tâche, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Sprint,  puis cliquez sur le nom du sprint,  puis sur cliquez sur la croix à côté de la tâche que vous voulez supprimer .la tâche sera supprimée de la liste.
-##### Créer un test
-Pour créer un test, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Tests, puis sur la page tests remplissez le formulaire puis  cliquez sur "Créer". Un nouveau test sera créé.
-##### supprimer un test
-Pour supprimer un test, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Tests, puis sur la page tests cliquez sur "supprimer" puis validez. Le test sera supprimé de la liste.
-##### Créer un issue
-Pour créer un issue, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Issues, puis sur la page Issues remplissez le formulaire puis  cliquez sur "Créer". Une nouvelle issue sera créée.
-##### supprimer un issue
-Pour supprimer un test, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Issues, puis sur la page Issues cliquez sur "supprimer" puis validez. L'issue sera supprimée de la liste.
-##### Créer une release
-Pour créer une release, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Releases, puis sur la page tests remplissez le formulaire puis  cliquez sur "Créer". Un une nouvelle release sera créé.
-##### supprimer une release
-Pour supprimer une release, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Releases, puis sur la page tests cliquez sur "supprimer" puis validez. La release sera supprimé de la liste.
-##### Créer une documentation
-Pour créer une documentation, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Documentation, puis sur la page tests remplissez le formulaire et ajoutez le document puis  cliquez sur "Créer". Une nouvelle documentation sera créé.
-##### supprimer une release
-Pour supprimer une release, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, Cliquez sur Releases, puis sur la page tests cliquez sur "supprimer" puis validez. La release sera supprimé de la liste.
-##### Consulter l'historique des modifications
-Pour Consulter l'historique des modifications, vous devez d'abord être authentifié. Une fois authentifié, sur la page du projet, vous trouverez l'historique.
+Un sprint est représenté par un nom mais aussi une date de début et une date de fin. Il est possible de définir une liste de tâches à suivre lors de ce sprint. Vous pourrez également assigner des membres du projet à chaque sprint ou encore lier un sprint à une issue.
 
+### Fonctionnalités particulières
+
+Depuis la page de profil, l'utilisateur pourra consulter la liste des tâches auxquelles il a été assigné. En cliquant sur une de ces tâches, il sera redirigé vers le sprint comprenant cette tâche.
+
+Depuis la page principale d'un projet, chaque membre peut consulter l'historique des modifications d'un projet. Cet historique contient les dix dernières modifications apportées au projet (Par exemple, modification d'une issue, suppression d'un membre...etc).
+
+Depuis la page Tasks, comprenant la liste des tâches d'un sprint, les membres pourront consulter la barre de progression qui représente les jours restants avant la fin d'un sprint.
+A noter que si le sprint n'est pas commencé, cette barre indiquera le nombre de jour restant avant le début du sprint.
+Sur cette même page il est également possible de choisir les tâches à afficher en choisissant l'êtat des tâches voulu. (Par exemple pour n'afficher que les tâches ayant pour état To Do).
+
+Depuis la page Tests, il est possible de consulter une barre de progression indiquant le pourcentage de tests concluants sur le total de tests renseignés.
+
+Depuis la page Documentation, il est demandé de renseigner un document provenant de l'ordinateur de la personne créant le nouveau document. Ce document peut être aux formats .pdf, .txt et .md. Les autres extensions ne sont pas acceptées.
+Après avoir fournit un document, il sera possible de le consulter depuis la page documentation.
