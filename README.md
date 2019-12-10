@@ -45,6 +45,7 @@
 |US37|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir visualiser pour chaque tâche l'ensemble ses issues.|MEDIUM|2|3|
 |US38|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir supprimer une issue à partir de la liste des issues d'une tâche en cliquant sur l'icône supprimer à côté de cette issue .|MEDIUM|1|3|
 |US39|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir supprimer un membre de la liste des membres d'une tâche en cliquant sur l'icône supprimer à côté de ce membre .|MEDIUM|1|3|
+|US40|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir supprimer un membre de la liste des membres d'une tâche en cliquant sur l'icône supprimer à côté de ce membre afin de supprimer ce membre de la liste.|MEDIUM|1|3|
 
 
 ​
@@ -82,11 +83,12 @@
 ​
 ### DOCUMENTATION :
 - Titre
-- Description
+- Description (optionnel)
+- Document correspondant
 ​
 ### RELEASE :
 - Numéro de version (doit être unique)
-- Description
+- Description (optionnel)
 - Lien vers docker
 - Date de la release
 ​

@@ -1,0 +1,22 @@
+# Liste des US réalisées
+## 10/12/2019 Version 0.3.0
+
+__Release__ : Releases/Release3-0.3.0.zip
+</br>
+__Lien de la release GitHub__ : https://github.com/ngiachino/grp1_eq8_dev/releases/tag/0.3.0
+
+|   ID  |   Description |   Priorité    |   Difficulté      |
+|:-----:|:--------------|:-------------:|:-----------------:|
+|US19|En tant qu'Administrateur de projet/Collaborateur je veux pouvoir créer un document la page des documents, en cliquant sur le bouton ‘Ajouter un document’.Il faudra ensuite renseigner ses différents champs puis valider la création en cliquant sur le bouton “Valider” puis sur  le bouton  “oui” ou refuser en cliquant sur  le bouton  “non”. On pourra annuler cette création en cliquant sur le bouton  “annuler”. Le document selectionné sera uploadé et pourra être ouvert par la suite.|MEDIUM|4|2|
+|US20|En tant qu'Administrateur de projet/Collaborateur je veux pouvoir modifier des documents depuis la page des documents en cliquant sur l'icône représentant un “Crayon”. Il faudra ensuite remplacer les différents champs à modifier puis valider la modification en cliquant sur  le bouton “Valider” puis sur le bouton “oui” ou refuser en cliquant sur le bouton “non”. On pourra annuler cette modification en cliquant sur le bouton “annuler”.|MEDIUM|4|2|
+|US21|En tant qu'Administrateur de projet/Collaborateur je veux pouvoir supprimer des documents depuis la page des documents en cliquant sur l’icône représentant une “ croix rouge”. Il faudra ensuite cliquer sur le bouton “Oui”. On pourra refuser la suppression en cliquant sur le bouton “Non”.|MEDIUM|2|2|
+|US31|En tant qu'Administrateur de projet/Collaborateur je veux avoir accès à ma liste de tâches à venir à partir de ma page d'accueil, récapitulant toutes mes tâches, renseignant le nom de la tâche, le projet associé, la date de début et celle de fin|MEDIUM|3|3|
+|US32|En tant qu'Administrateur de projet/Collaborateur, sur la page d'accueil d'un projet, je veux avoir accès à l'historique des modifications qui ont été faites sur ce projet. Les 10 derniers Ajouts/modifications/suppressions d'issue, sprint, tâche, release, test et documentation y seront répertoriés.|LOW|5|3|
+|US33|En tant qu'Administrateur de projet/Collaborateur, sur la page d'accueil d'un projet, je veux pouvoir modifier le nom et/ou la description du projet en cliquant sur le bouton modifier.|MEDIUM|2|3|
+|US34|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir visualiser la progression d'un sprint en fonction de la date de début et de la date de fin.|LOW|2|3|
+|US35|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir naviguer sur la liste de tous les sprints du projets en cliquant sur le bouton Suivant/Précedent afin de pouvoir choisir le Sprint voulu.|LOW|2|3|
+|US36|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir lier une tâche à des issues de mon projet en renseignant son numéro et en cliquant sur le bouton Ajouter afin de savoir à quelle User Story correspond chaque tâche|MEDIUM|2|3|
+|US37|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir visualiser pour chaque tâche l'ensemble ses issues afin de savoir à quelle User Story correspond chaque tâche|MEDIUM|2|3|
+|US38|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir supprimer une issue à partir de la liste des issues d'une tâche en cliquant sur l'icône supprimer à côté de cette issue afin de retirer une issue de la liste.|MEDIUM|1|3|
+|US39|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir ajouter un membre de la liste des membres d'une tâche en cliquant sur l'icône ajouter et en saisissant le pseudo de ce membre afin d'ajouter ce membre à la liste.|MEDIUM|1|3|
+|US40|En tant qu'Administrateur de projet/Collaborateur, je veux pouvoir supprimer un membre de la liste des membres d'une tâche en cliquant sur l'icône supprimer à côté de ce membre afin de supprimer ce membre de la liste.|MEDIUM|1|3|
